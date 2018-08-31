@@ -3,6 +3,7 @@ Description: S3 multi region bucket creation
 Parameters:
   Bucket:
     Type: String
+    Default: "richard"
 Resources:
   S3Bucket:
     Type: AWS::S3::Bucket

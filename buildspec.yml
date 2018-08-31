@@ -1,11 +1,11 @@
 version: 0.1
 
-  phases:
-    post_build:
-      commands:
-      - echo Entered the post_build phase...
-      - echo Build completed on `date`
-    artifacts:
-      files:
-      - "**/*"
+phases:
+  post_build:
+    commands:
+    - echo Entered the post_build phase...
+    - echo Build completed on `date`
+  artifacts:
+    files:
+    - "**/*"
 
